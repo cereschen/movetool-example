@@ -1,0 +1,32 @@
+{
+  "name": "movetool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "localforage": "^1.9.0",
+    "rollup": "^2.36.1",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-alias": "^3.1.1",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@vue/composition-api": "^1.0.0-beta.26",
+    "@vueuse/core": "^4.0.6",
+    "moveable": "^0.22.3",
+    "socket.io-client": "^3.1.0",
+    "vue": "^2.6.12"
+  }
+}
